@@ -32,7 +32,7 @@ export const REPO = "your-repository";
 To build and run the application:
 
 ```bash
-npm run dev
+npm run cleaner
 ```
 
 The default behavior will fetch all failed workflow runs and delete them.
@@ -42,6 +42,7 @@ The default behavior will fetch all failed workflow runs and delete them.
 - `npm run build` - Compiles TypeScript code
 - `npm run start` - Runs the compiled application
 - `npm run dev` - Compiles and runs the application
+- `npm run cleaner` - Compiles and runs the workflow cleaner tool (currently actually same as dev 🤭)
 
 ## GitHub Personal Access Token
 

@@ -1,12 +1,13 @@
 {
-  "name": "githapi",
+  "name": "github-workflow-cleaner",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "tsc && node dist/index.js"
+    "dev": "tsc && node dist/index.js",
+    "cleaner": "tsc && node dist/index.js"
   },
   "author": "",
   "license": "ISC",

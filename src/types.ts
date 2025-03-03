@@ -1,0 +1,16 @@
+export type GitHubRunStatus =
+  | "queued"
+  | "in_progress"
+  | "completed"
+  | "waiting"
+  | "requested"
+  | "pending"
+  | "action_required"
+  | "cancelled"
+  | "failure"
+  | "neutral"
+  | "skipped"
+  | "stale"
+  | "success"
+  | "timed_out"
+  | undefined;
